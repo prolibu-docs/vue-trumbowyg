@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/ankurk91/vue-trumbowyg",
   "scripts": {
-    "postinstall": "yarn install && yarn run build",
+    "postinstall": "yarn run build",
     "test": "echo \"Error: tests are coming soon.\" && exit 1",
     "start": "yarn run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --hot --config=webpack.config.dev.js",
