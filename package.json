@@ -25,6 +25,9 @@
     "url": "https://github.com/ankurk91/vue-trumbowyg/issues"
   },
   "homepage": "https://github.com/ankurk91/vue-trumbowyg",
+  "postinstall": {
+    "build": "cross-env NODE_ENV=production webpack --progress --mode production",
+  },
   "scripts": {
     "test": "echo \"Error: tests are coming soon.\" && exit 1",
     "start": "yarn run dev",
